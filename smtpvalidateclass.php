@@ -159,7 +159,7 @@ class SMTP_validateEmail {
     $reply = fread($this->sock, 2082);  
     $this->debug("<<<\n$reply");  
       
-    preg_match('/^([0-9]{3}) /ims', $reply, $matches);  
+    preg_match('/^([0-9]{3})/ims', $reply, $matches);  
     $code = isset($matches[1]) ? $matches[1] : '';  
    
     if($code != '220') {  
