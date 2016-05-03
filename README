@@ -1,5 +1,5 @@
 How to check if an email address exists without sending an email?
-The PHP code demonstrates how the email server can be checked to see if an email address exists. This uses SMTP commands, if you are not familiar with them, please visit this page to see what commands are being used http://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
+The PHP code demonstrates how the email server can be checked to see if an email address exists. This uses SMTP commands, if you are not familiar with them, please visit this page to see what commands are being used https://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
 
 Requirements (for this example):
 Any OS
@@ -8,7 +8,7 @@ PHP
 Source:
 This is opensource and you are free to use it however you want. It comes with absolutely no warranty.
 
-Project Page: http://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
+Project Page: https://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
 
 Brought to you by Webdigi, a Web Development Company https://www.webdigi.co.uk/
 
