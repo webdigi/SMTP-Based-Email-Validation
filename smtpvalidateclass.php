@@ -142,7 +142,7 @@ class SMTP_validateEmail {
      
    $this->debug(print_r($mxs, 1));  
      
-   $timeout = $this->max_conn_time/count($hosts);  
+   $timeout = $this->max_conn_time/(count($hosts)>0 ? count($hosts) : 1);  
       
    // try each host  
    while(list($host) = each($mxs)) {  
